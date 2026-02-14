@@ -66,7 +66,7 @@ static HICON hTrayIcon = nullptr;
 static UINT uTrayIconDPI = 0;
 
 // tab width for notification text
-#define CallTipTabWidthNotification		8
+#define CallTipTabWidthNotification		(2*4)
 #define CallTipDefaultMouseDwellTime	250
 
 #define TOOLBAR_COMMAND_BASE	IDT_FILE_NEW
